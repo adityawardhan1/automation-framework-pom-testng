@@ -1,0 +1,12 @@
+<suite name="MySuite">
+  <listeners>
+    <listener class-name="com.aditya.listeners.TestListener" />
+  </listeners>
+
+  <test name="AllTests">
+    <classes>
+      <class name="com.aditya.tests.LoginTest"/>
+      <class name="com.aditya.tests.DashboardTest"/>
+    </classes>
+  </test>
+</suite>
